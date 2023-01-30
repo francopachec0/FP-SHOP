@@ -1,6 +1,6 @@
 FP SHOP
 
-Mini tienda con carrito de compras que me permitio aprender y reforzar conceptos de React/Redux, consumiendo API Fake Shop y trabajando con actions, reducers, etc.
+Mini tienda con carrito de compras que me permitio aprender y reforzar conceptos de React/Redux, asi tambien usar tailwind css, usando responsive design, consumiendo API Fake Shop y trabajando con actions, reducers, etc.
 
 TECNOLOGIAS USADAS:
 
@@ -13,4 +13,4 @@ TECNOLOGIAS USADAS:
 - REACT HOT TOAST
 
 
-DEPLOY: https://greydive-challenge-gamma.vercel.app/
+DEPLOY: https://fp-shop.vercel.app/
