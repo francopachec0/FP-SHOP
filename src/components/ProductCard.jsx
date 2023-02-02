@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import { LoadingComponent } from "./LoadingComponent";
 
 export const ProductCard = () => {
     const products = useSelector((state) => state.allProducts.products);
@@ -37,7 +38,7 @@ export const ProductCard = () => {
 
     return (
         <>
-            {renderList}
+            {products.length === 0 ? <LoadingComponent /> : renderList}
         </>
     );
     };
