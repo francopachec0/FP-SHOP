@@ -3,6 +3,8 @@ import { useSelector } from "react-redux";
 export const ProductCard = () => {
     const products = useSelector((state) => state.allProducts.products);
 
+    
+
     const renderList = products.map((product) => {
         const { id, image, title, category, price } = product;
     return (

@@ -1,4 +1,3 @@
-import { Footer } from "./Footer"
 import { ProductsList } from "./ProductsList"
 
 export const Home = () => {

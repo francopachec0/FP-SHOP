@@ -12,7 +12,7 @@ export const NavBar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="shadow-md w-full fixed md:absolute top-0 left-0">
+        <nav className="shadow-md w-full fixed md:absolute top-0 left-0 z-50">
             <div className="md:flex items-center justify-between bg-white py-2 md:px-10 px-7">
                 <div className="font-bold text-2xl cursor-pointer flex items-center text-black transform md:hover:scale-110 duration-200">
                     <span className="text-3xl text-black mr-2 pt-2">
