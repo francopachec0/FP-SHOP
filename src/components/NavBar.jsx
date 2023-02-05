@@ -15,10 +15,12 @@ export const NavBar = () => {
         <nav className="shadow-md w-full fixed md:absolute top-0 left-0 z-50">
             <div className="md:flex items-center justify-between bg-white py-2 md:px-10 px-7">
                 <div className="font-bold text-2xl cursor-pointer flex items-center text-black transform md:hover:scale-110 duration-200">
-                    <span className="text-3xl text-black mr-2 pt-2">
-                        <ion-icon name="gift-outline"></ion-icon>
-                    </span>
+                    <a href="/" className="flex items-center">
+                        <span className="text-3xl text-black mr-2 pt-2">
+                            <ion-icon name="gift-outline"></ion-icon>
+                        </span>
                     FP SHOP
+                    </a>
                 </div>
                 <div className="flex items-center absolute right-20 top-4 cursor-pointer duration-300 md:hidden">
                         <button>
