@@ -17,6 +17,7 @@ export const ProductsList = () => {
         });
         dispatch(setProducts(response.data));
     };
+    //hola
 
     useEffect(() => {
         getProducts();
