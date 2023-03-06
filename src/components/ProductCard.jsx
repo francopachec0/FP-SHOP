@@ -23,10 +23,10 @@ export const ProductCard = () => {
                         <div className="flex items-center">
                         <p className="text-lg font-semibold my-3">$ {price}</p>
                             <div className="ml-auto text-2xl md:hover:text-[#adb5bd] duration-300">
-                                <button>
-                                    <ion-icon name="add-outline"></ion-icon>
-                                    <ion-icon name="cart-outline"></ion-icon>
-                                </button>
+                                    <button>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                        <ion-icon name="cart-outline"></ion-icon>
+                                    </button>
                             </div>
                         </div>
                     </div>

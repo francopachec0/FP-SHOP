@@ -43,9 +43,12 @@ export const NavBar = () => {
                         ))
                     }
                     <div className="flex items-center xs:max-md:hidden cursor-pointer transform md:hover:scale-110 duration-300 md:hover:text-[#adb5bd] md:my-0 md:ml-8">
-                        <button className="flex items-center">
-                            <ion-icon size='large' name="cart-outline"></ion-icon>
-                        </button>
+                        <a href="/cart">
+                            <button className="flex items-center">
+                                <ion-icon size='large' name="cart-outline"></ion-icon>
+                                <span className="text-bold text-sm pb-6">0</span>
+                            </button>
+                        </a>
                     </div>
                 </ul>
             </div>

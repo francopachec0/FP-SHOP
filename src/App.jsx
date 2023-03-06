@@ -5,6 +5,7 @@ import { Toaster } from "react-hot-toast";
 import { Error404 } from "./components/Error404";
 import { ProductDetails } from "./components/ProductDetails";
 import { Home } from "./components/Home";
+import { Cart } from "./components/Cart";
 
 function App () {
   return (
@@ -14,6 +15,7 @@ function App () {
       <div className="w-full static">
         <Routes>
           <Route path={"/"} element = {<Home />}/>
+          <Route path={"/cart"} element = {<Cart />}/>
           <Route exact path={"/product/:productID"} element = {<ProductDetails />}/>
           <Route path={"/404"} element = {<Error404 />}/>
           <Route path={"*"} element={<Navigate to="/404" />}/>
