@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
 
@@ -43,12 +44,12 @@ export const NavBar = () => {
                         ))
                     }
                     <div className="flex items-center xs:max-md:hidden cursor-pointer transform md:hover:scale-110 duration-300 md:hover:text-[#adb5bd] md:my-0 md:ml-8">
-                        <a href="/cart">
+                        <Link to={"/cart"}>
                             <button className="flex items-center">
                                 <ion-icon size='large' name="cart-outline"></ion-icon>
                                 <span className="text-bold text-sm pb-6">0</span>
                             </button>
-                        </a>
+                        </Link>
                     </div>
                 </ul>
             </div>
