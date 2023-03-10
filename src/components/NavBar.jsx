@@ -23,10 +23,13 @@ export const NavBar = () => {
                     FP SHOP
                     </a>
                 </div>
-                <div className="flex items-center absolute right-20 top-4 cursor-pointer duration-300 md:hidden">
-                        <button>
+                <div className="flex items-center justify-center absolute right-[70px] top-[8px] md:hidden">
+                    <Link to={"/cart"}>
+                        <button className="flex items-center">
                             <ion-icon size='large' name="cart-outline"></ion-icon>
+                            <span className="text-bold text-sm pb-6">0</span>
                         </button>
+                    </Link>
                 </div>
                 <div>
                     <div onClick={() => setOpen(!open)} className="text-3xl absolute right-3 top-4 cursor-pointer md:hidden">
